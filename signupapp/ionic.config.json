@@ -1,0 +1,7 @@
+{
+  "name": "MyThirdApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

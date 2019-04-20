@@ -1,0 +1,20 @@
+
+<ion-content padding class="form">
+        <div class="myregister">
+          <h2> WELCOME!</h2>
+            <p>Please signup to continue </p>
+             
+              <ion-item>
+                <ion-input type="text" [(ngModel)]="username" placeholder="Name" ></ion-input>>
+              </ion-item>
+              <ion-item>
+                  <ion-input type="text" [(ngModel)]="email" placeholder="Email" ></ion-input>>
+                </ion-item>
+                <ion-item>
+                    <ion-input type="Password" [(ngModel)]="pass" placeholder="Password" ></ion-input>>
+                </ion-item>
+          
+            <button ion-button (click)="savData()"  color =dark>SIGNUP</button>
+
+        </div>
+</ion-content>
